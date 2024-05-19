@@ -1,0 +1,39 @@
+    S.NO                                               WINDOW                                                                  DOCUMENT                                                            
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+      1.                                             
+                                            REPRESENTS THE BROWSER'S WINDOW OR FRAME                                    REPRESENTS THE HTML OR XML DOCUMENT LOADED INTO THE WINDOW.
+                                            CONTAINING A DOM DOCUMENT. 
+
+
+      2.                                    VARIABLE DECLARED WITH "VAR" GLOBALLY ARE                                   NOT APPLICABLE. 
+                                            PROPERTIES OF WINDOW.
+
+
+      3.                                    PROPERTIES OF THE WINDOW OBJECT CANNOT BE ACCESSED                          PROPERTIES OF DOCUMENT OBJECTS SUCH AS TITLE,BODY,COOKIES, ETC...
+                                            BY THE DOCUMENT OBJECT.                                                     CAN ALSO BE ACCESSED BY A WINDOW LIKE THIS WINDOW .          
+                                             
+
+      4.                                    GLOBAL SCOPE OBJECT IN A WEB BROWSER ENVIRONMENT.                            A PROPERTY OF THE WINDOW OBJECTS.
+
+
+      5.                                    METHODS AND PROPERTIES TO CONTROL BROWSER BEHAVIORS                          NOT APPLICABLE.
+                                            (e.g., window.location,window.history).
+
+
+      6.                                    PART OF THE BOM ,ALLOWING INTRACTION WITH THE BROWSER.                       PART OF THE DOM ,ALLOWING INTRACTION WITH THE DOCUMENTS CONTENT.
+
+
+      7.                                    IT IS THE VERY FIRST OBJECT THAT IS LOADED IN THE BROWSER.                   IT IS LOADED INSIDE THE WINDOW.
+
+
+      8.                                    IT IS THE OBJECT OF THE BROWSER.                                             IT IS TGE OBJECT OF WINDOW PROPERTY.
+
+
+      9.                                   SYNTAX: windows.propertyname;                                                 SYNTAX: document.propertyname;
+
+
+      10.                                  EXAMPLE:                                                                      EXAMPLE:
+                                               
+                                              window.innerHeight: WILL RETURN THE HEIGHT OF THE CONTENT                  document.title: WILL RETURN THE TITLE OF THE DOCUMENT.
+                                                                  AREA OF THE BROWSER"# day2-task" 
